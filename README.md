@@ -1,5 +1,7 @@
 # Repeatability Evaluation Package.
 
+NOTE: for local runs, you will need to have CUDA (for docker) installed!
+
 This is the repeatability evaluation package for the tool paper "AutoKoopman: A Toolbox for Automated System Identification via Koopman Operator Linearization", submitted to HSCC 2023.
 
 The link to the package Code Ocean capsule is: https://codeocean.com/capsule/8837388/tree/v1 . We expect the run to take about 3.5 hours to complete.
