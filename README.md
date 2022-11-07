@@ -35,12 +35,12 @@ NOTE: if you want to follow REPRODUCING.md, you will need to set run to an execu
 If you want to modify some files and re-run some of the experiment, you can open an interactive shell via
 
 ```shell
-docker run --rm --gpus all \
+docker run -it --rm --gpus all \
   --workdir /code \
   --volume "$PWD/data":/data \
   --volume "$PWD/code":/code \
   --volume "$PWD/results":/results \
-  registry.codeocean.com/published/897bcbe3-1d73-4305-b3b9-870663cd6cab:v1 -it /bin/bash
+  registry.codeocean.com/published/897bcbe3-1d73-4305-b3b9-870663cd6cab:v1 /bin/bash
 ```
 
 ## Additional Information
