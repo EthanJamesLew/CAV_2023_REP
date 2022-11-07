@@ -1,6 +1,6 @@
 # Repeatability Evaluation Package.
 
-NOTE: for local runs, you will need to have CUDA (for docker) installed!
+NOTE: for local runs, you will need to have CUDA >=11.7 (for docker) installed!
 
 This is the repeatability evaluation package for the tool paper "AutoKoopman: A Toolbox for Automated System Identification via Koopman Operator Linearization", submitted to HSCC 2023.
 
