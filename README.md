@@ -11,6 +11,8 @@ This REP repeats the results
 - the performance and time metrics for the symbolic, black box, and real data seen in Table 1 separately
 - Figures 2, 3, and 4
 
+You will see some warnings/errors when running the REP--this is expected as some hyperparameters result in unstable models.
+
 ## Instructions
 
 ### Run on CodeOcean
